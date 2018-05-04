@@ -8,12 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
     <title>起始界面</title>
   </head>
-  <body>
+  <body >
   <div class="header">
     <div class="login">
-      <span><a href="javascript:void(0)">登录</a></span>
+      <span><a href="/login">登录</a></span>
       <span>|</span>
       <span><a href="javascript:void (0)">注册</a> </span>
     </div>
