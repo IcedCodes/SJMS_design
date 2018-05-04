@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SJMS_design:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SJMS_design_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SJMS_design/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SJMS_design" />
+        </element>
+        <element id="library" level="project" name="Spring MVC-4.3.16.RELEASE" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.16.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.16.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="folder">
+        <element id="dir-copy" path="$PROJECT_DIR$/../apache-tomcat-9.0.6/webapps" />
+      </element>
+    </root>
+  </artifact>
+</component>
