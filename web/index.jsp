@@ -8,21 +8,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
     <title>起始界面</title>
   </head>
   <body >
   <div class="header">
-    <div class="login">
-      <span><a href="/login">登录</a></span>
-      <span>|</span>
-      <span><a href="javascript:void (0)">注册</a> </span>
-    </div>
-  </div>
-  <div class="banner">
-
+      <div class="logo">
+          南航愉♂悦PA交流论坛
+      </div>
+      <ul>
+          <li class="first">登录</li>
+          <li>注册</li>
+      </ul>
   </div>
   <a href="hello">Hello!</a>
+  <h4>New Hello!</h4>
+  <a href="/reg">注册</a>
   </body>
 </html>
 
@@ -31,18 +31,26 @@
     height: 60px;
     background: #458fce;
   }
-  .login{
-    float: right;
-    color: aqua;
-    line-height: 72px;
-    margin-right: auto;
+    .logo{
+        color: red;
+        line-height: 72px;
+        font-size: 30px;
+        font-family: 微软雅黑;
+        display: inline-block;
+        font-weight: 500;
+    }
+  .header ul li.first {
+      margin-left: 30px ;
   }
-  .header ul li.login{
-    background-color: azure;
-  }
-  .banner{
-    height: 380px;
-    overflow: hidden;
-    background-color: #cccccc;
-  }
+
+  .header li{
+        float: left;
+        color: #ffffffff;
+        display: inline-block ;
+        width: 112px ;
+        height: 72px ;
+        text-align: center ;
+        line-height:72px ;
+        cursor: pointer ;
+    }
 </style>
