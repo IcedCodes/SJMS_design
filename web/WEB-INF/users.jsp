@@ -17,7 +17,7 @@
         <%for (HappypaersEntity e:(List<HappypaersEntity>)request.getAttribute("users")){%>
         <li>ID:<%out.print(e.getId());%></li>
         <li>姓名:<%out.print(e.getUsername());%></li>
-        <%}%>
+        <%%>
     </ol>
 
 

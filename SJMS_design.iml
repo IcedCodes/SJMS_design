@@ -37,11 +37,11 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="web:WEB-INF:classes:hibernate.cfg.xml" value="ff494f22-76ae-4a4a-90e1-ec4b942e2a56" />
+          <unit-entry name="web:WEB-INF:classes:hibernate.cfg.xml" value="55ff5d45-3618-4135-8cb1-c8a675b09cd3" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../SJMS_design/web/WEB-INF/classes/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/web/WEB-INF/classes/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="web" name="Web4">

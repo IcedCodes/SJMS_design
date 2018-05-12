@@ -1,5 +1,7 @@
 package com.NUAALH;
 
+import com.NUAALH.database.entities.HappypaersEntity;
+
 public class User {
     private int id;
     private String name;
@@ -48,6 +50,14 @@ public class User {
         setNickname(nickname);
         setPassword(password);
         setUsertype(usertype);
+    }
+
+    public User(HappypaersEntity happypaer){
+        setId(happypaer.getId());
+        setUsertype(happypaer.getUsertpye());
+        setPassword(happypaer.getPassword());
+        setNickname(happypaer.getNickname());
+        setName(happypaer.getUsername());
     }
     public User(){}
 }

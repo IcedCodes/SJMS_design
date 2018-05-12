@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.NUAALH.User" %><%--
   Created by IntelliJ IDEA.
   User: LENOVO
   Date: 2018/5/3
@@ -15,14 +15,28 @@
       <div class="logo">
           南航愉♂悦PA交流论坛
       </div>
-      <ul>
-          <li class="first">登录</li>
-          <li>注册</li>
-      </ul>
+      <div class="login">
+          <span><a href="/login">登录</a> </span>
+          <span>|</span>
+          <span><a href="/reg">注册</a></span>
+      </div>
   </div>
   <a href="hello">Hello!</a>
   <h4>New Hello!</h4>
-  <a href="/reg">注册</a>
+  <a href="/createnotice">添加公告</a>
+  <a href="/noticelist">查看公告</a>
+  <%
+      session = request.getSession();
+
+      User a = (User)session.getAttribute("theuser");
+      if(a == null){
+          out.print("未登录，请登录!");
+      }
+      else{
+          out.print("欢迎" + a.getNickname() + "登录");
+      }
+  %>
+
   </body>
 </html>
 

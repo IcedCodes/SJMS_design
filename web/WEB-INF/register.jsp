@@ -5,7 +5,7 @@
     <title>注册</title>
 </head>
 <body>
-    <form action="/register" method="get">
+    <form action="/register" method="post" accept-charset="UTF-8">
     用户名:<input type="text" name="name"><br>
      密码 :<input type="text" name="password"><br>
      昵称 :<input type="text" name="nickname"><br>
