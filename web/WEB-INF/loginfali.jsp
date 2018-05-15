@@ -10,7 +10,7 @@
 <body>
 <div id="fail">
     <h1>用户名或密码错误</h1><br>
-    <button class="button" onclick="javasrcipt:location.href = '/'">返回</button>
+    <button class="button" onclick="javasrcipt:location.href = '/login'">返回</button>
 </div>
 </body>
 </html>
@@ -25,7 +25,7 @@
         height: 300px;
     }
     #fail h1{
-        color: #ffffff;
+        color: #000000;
         text-shadow: 0 0 10px;
         letter-spacing: 1px;
         text-align: center;

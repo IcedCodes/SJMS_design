@@ -24,11 +24,11 @@
       <div id="logo">南航愉♂悦PA交流论坛</div>
   </div>
   <div id="ALL">
-  <button class="button" onclick="javascript:location.href = '/login' ">登录</button>
-  <button class="button" onclick="javascript:location.href = '/reg' ">注册</button>
-  <button class="button" onclick="javascript:location.href = '/createnotice' ">添加公告</button>
-  <button class="button" onclick="javascript:location.href = '/noticelist' ">查看公告</button>
-  <button class="button" onclick="javascript:location.href = '/main' ">进入论坛</button>
+  <button class="button" onclick="javascript:location.href = '/login' ">登录</button><br>
+  <button class="button" onclick="javascript:location.href = '/reg' ">注册</button><br>
+  <button class="button" onclick="javascript:location.href = '/createnotice' ">添加公告</button><br>
+  <button class="button" onclick="javascript:location.href = '/noticelist' ">查看公告</button><br>
+  <button class="button" onclick="javascript:location.href = '/main' ">进入论坛</button><br>
   </div>
   </body>
 </html>

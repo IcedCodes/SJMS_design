@@ -7,10 +7,10 @@
 <body>
 <div id="register">
     <h1>注册</h1>
-    <form action="/register" method="post" accept-charset="UTF-8" onsubmit="return judge()">
-        <input type="text" name="name" placeholder="用户名"><br>
-        <input type="text" name="nickname" placeholder="昵称"><br>
-        <input type="password" name="password" placeholder="密码"><br>
+    <form action="/register" method="post" accept-charset="UTF-8" onsubmit="return judge(this)">
+        <input type="text"  id="name" name="name" placeholder="用户名"><br>
+        <input type="text" id="nickname" name="nickname" placeholder="昵称"><br>
+        <input type="password" id="password" name="password" placeholder="密码"><br>
         <button class="button" input type="submit">注册</button>
     </form>
 
@@ -18,20 +18,20 @@
 </body>
 </html>
 <script>
-    function judge() {
+    function judge(form) {
         var name, nickname, password;
-        name = document.getElementsByName("name");
-        nickname = document.getElementsByName("nickname");
-        password = document.getElementsByName("password");
-        if(name.value == null){
+        name = form.name.value;
+        nickname = form.nickname.value;
+        password = form.password.value;
+        if(name == ""){
             alert("用户名不能为空！");
             return false;
         }
-        if(nickname.value == null){
+        if(nickname == ""){
             alert("昵称不能为空！");
             return false;
         }
-        if(password.value == null){
+        if(password == ""){
             alert("密码不能为空！");
             return false;
         }

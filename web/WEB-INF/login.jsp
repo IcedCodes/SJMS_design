@@ -10,7 +10,7 @@
 <body>
     <div id="login">
         <h1>登录</h1><br>
-    <form action="/logincheck" method="post" onsubmit="return judge()">
+    <form action="/logincheck" method="post" onsubmit="return judge(this)">
         <input type="text" name="username" placeholder="用户名"><br>
         <input type="password" name="password" placeholder="密码"><br>
         <button class="button" type="submit">登录</button><br>
@@ -20,17 +20,19 @@
 </body>
 </html>
 <script>
-    function judge() {
+    function judge(form) {
         var name, password;
-        name = document.getElementById("username");
-        password = document.getElementById("password");
-        if(name.value == null){
+        name = form.username.value;
+        password = form.password.value;
+        if(name == ""){
             alert("用户名不能为空");
             return false;
         }
-        if(password.value == null){
+        if(password == ""){
             alert("密码不能能为空");
+            return false;
         }
+        return true;
     }
 </script>
 <style>
