@@ -6,7 +6,7 @@ public class Notice {
     private String title;
     private String message;
     private Date time;
-
+    private String nickname;
     public void setTitle(String title) {
         this.title = title;
     }
@@ -17,6 +17,14 @@ public class Notice {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public String getNickname() {
+        return nickname;
     }
 
     public Date getTime() {

@@ -4,13 +4,14 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "happypaers", schema = "happypa_bbs", catalog = "")
+@Table(name = "happypaers", schema = "happypa_bbs")
 public class HappypaersEntity {
     private int id;
     private String username;
     private String nickname;
     private int usertpye;
     private String password;
+    private int points;
 
     @Id
     @Column(name = "ID")
@@ -61,6 +62,11 @@ public class HappypaersEntity {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Basic
+    @Column(name = "points")
+    public int getPoints(){return  points;}
+    public void setPoints(int points){this.points = points;}
 
     @Override
     public boolean equals(Object o) {

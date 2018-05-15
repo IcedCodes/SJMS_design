@@ -10,9 +10,9 @@ import java.util.List;
 public class UserLoginChecker {
     User user;
     public void check(String name, String password){
-        System.out.println("传入checker的参数");
+        /*System.out.println("传入checker的参数");
         System.out.println("用户名"+name);
-        System.out.println("密码" + password);
+        System.out.println("密码" + password);*/
         Session session = DbConnection.getSession();
         List<HappypaersEntity> list = session.createCriteria(HappypaersEntity.class).list();
         for(int i = 0; i < list.size(); i++) {
@@ -23,7 +23,7 @@ public class UserLoginChecker {
             if((name.equals(list.get(i).getUsername())) && (password.equals(list.get(i).getPassword())) )
             {
                 this.user = new User(list.get(i));
-                System.out.println("匹配成功");
+//                System.out.println("匹配成功");
             }
         }
     }

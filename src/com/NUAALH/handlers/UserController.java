@@ -45,9 +45,9 @@ public class UserController {
         name = ef.to_UTF8(name);
         nickname = ef.to_UTF8(nickname);
         Transaction transaction = session.beginTransaction();
-        System.out.println("注册");
-        System.out.println("用户名:"+name);
-        System.out.println("昵称:"+nickname);
+//        System.out.println("注册");
+//        System.out.println("用户名:"+name);
+//        System.out.println("昵称:"+nickname);
         //保存
         HappypaersEntity ue = new HappypaersEntity();
         ue.setUsername(name);
@@ -63,7 +63,7 @@ public class UserController {
 
     @RequestMapping(value = "/result", method = RequestMethod.GET)
     public String result(ModelMap map, @RequestParam String name, @RequestParam String password,@RequestParam String nickname){
-        System.out.println("有提交");
+//        System.out.println("有提交");
         map.addAttribute("name", name);
         map.addAttribute("password",password);
         map.addAttribute("nickname",nickname);
@@ -133,12 +133,36 @@ public class UserController {
     @RequestMapping(value = "/logincheck", method = RequestMethod.POST)
     public String login(ModelMap map, @RequestParam String username, @RequestParam String password, HttpServletRequest request){
         User theuser = null;
-        System.out.println("校验用户名与密码");
+//        System.out.println("校验用户名与密码");
         HttpSession session = request.getSession();
         UserLoginChecker checker = new UserLoginChecker(username, password);
         theuser = checker.result();
         session.setAttribute("theuser", theuser);
         //map.addAttribute("theuser", theuser);
-        return "loginresult";
+        if(theuser == null)return "loginfali";
+        return "loginsuccess";
+    }
+
+
+    @RequestMapping(value = "/main", method = RequestMethod.GET)
+    public String mainpage(ModelMap map, HttpSession session){
+        String username;
+        String nickname;
+        int points;
+        User a = (User)session.getAttribute("theuser");
+        if(a == null)return "login";
+        username = a.getName();
+        nickname = a.getNickname();
+        points = a.getPoints();
+        map.addAttribute("username",username);
+        map.addAttribute("nickname",nickname);
+        map.addAttribute("points", points);
+        return "main";
+    }
+
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    public String logout(HttpSession session){
+        session.removeAttribute("theuser");
+        return "logout";
     }
 }

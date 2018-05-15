@@ -8,7 +8,19 @@ public class User {
     private String password;
     private String nickname = "PAer";
     private int usertype = 0;
+    private int points = 0;
 
+    public int getPoints() {
+        return points;
+    }
+
+    public int getUsertype() {
+        return usertype;
+    }
+
+    public void setPoints(int points){
+        this.points = points;
+    }
     public String getName() {
         return name;
     }

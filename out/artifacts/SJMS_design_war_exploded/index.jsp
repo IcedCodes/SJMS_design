@@ -8,55 +8,67 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>起始界面</title>
+    <title>欢迎界面</title>
   </head>
-  <body >
-  <div class="header">
-      <div class="logo">
-          南航愉♂悦PA交流论坛
-      </div>
-      <div class="login">
-          <span><a href="/login">登录</a> </span>
-          <span>|</span>
-          <span><a href="/reg">注册</a></span>
-      </div>
-  </div>
-  <a href="hello">Hello!</a>
-  <h4>New Hello!</h4>
-  <a href="/createnotice">添加公告</a>
-  <a href="/noticelist">查看公告</a>
+  <body>
   <%
-      session = request.getSession();
-
       User a = (User)session.getAttribute("theuser");
-      if(a == null){
-          out.print("未登录，请登录!");
-      }
-      else{
-          out.print("欢迎" + a.getNickname() + "登录");
+      String nickname = "未登录";
+      boolean login = false;
+      if(a != null){
+          nickname = a.getNickname();
+          login = true;
       }
   %>
-
+  <div id="header">
+      <div id="logo">南航愉♂悦PA交流论坛</div>
+  </div>
+  <div id="ALL">
+  <button class="button" onclick="javascript:location.href = '/login' ">登录</button>
+  <button class="button" onclick="javascript:location.href = '/reg' ">注册</button>
+  <button class="button" onclick="javascript:location.href = '/createnotice' ">添加公告</button>
+  <button class="button" onclick="javascript:location.href = '/noticelist' ">查看公告</button>
+  <button class="button" onclick="javascript:location.href = '/main' ">进入论坛</button>
+  </div>
   </body>
 </html>
 
 <style>
-  .header{
-    height: 60px;
-    background: #458fce;
-  }
-    .logo{
-        color: red;
-        line-height: 72px;
-        font-size: 30px;
-        font-family: 微软雅黑;
-        display: inline-block;
-        font-weight: 500;
+    html{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
-  .header ul li.first {
-      margin-left: 30px ;
-  }
+    body{
+        font-family: 微软雅黑;
+        margin: 0;
+        background: #4A374A;
+    }
 
+    #header{
+    height: 60px;
+    background: blue;
+    text-align: center;
+  }
+  #header #logo{
+      position: relative;
+      text-align: center;
+      color: red;
+      line-height: 72px;
+      font-size: 30px;
+      font-family: 微软雅黑;
+      display: inline-block;
+      font-weight: 500;
+      text-shadow: azure;
+  }
+    #ALL{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        margin: -150px 0 0 -150px;
+        width: 300px;
+        height: 300px;
+    }
   .header li{
         float: left;
         color: #ffffffff;
@@ -66,5 +78,18 @@
         text-align: center ;
         line-height:72px ;
         cursor: pointer ;
+  }
+    button{
+        width: 300px;
+        min-height: 20px;
+        display: block;
+        background-color: #4a77d4;
+        border: 1px solid #3762bc;
+        color: #fff;
+        padding: 9px 14px;
+        font-size: 15px;
+        line-height: normal;
+        border-radius: 5px;
+        margin: 0;
     }
 </style>

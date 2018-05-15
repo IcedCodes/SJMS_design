@@ -5,12 +5,12 @@ import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "notice", schema = "happypa_bbs", catalog = "")
+@Table(name = "notice", schema = "happypa_bbs")
 public class NoticeEntity {
     private String title;
     private String message;
     private Date time;
-
+    private String nickname;
 
     @Id
     @Column(name = "title")
@@ -30,6 +30,14 @@ public class NoticeEntity {
         return time;
     }
 
+    @Basic
+    @Column(name = "usernickname")
+    public String getNickname(){return nickname;}
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
     public void setMessage(String message) {
         this.message = message;
     }
@@ -41,6 +49,7 @@ public class NoticeEntity {
     public void setTitle(String title) {
         this.title = title;
     }
+
 
     @Override
     public boolean equals(Object obj) {

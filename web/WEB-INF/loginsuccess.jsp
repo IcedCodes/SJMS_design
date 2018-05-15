@@ -10,7 +10,7 @@
 </head>
 <body>
     <%
-        User a = (User)request.getAttribute("theuser");
+        User a = (User)session.getAttribute("theuser");
         if(a == null){
             out.println("用户名或密码错误");
         }
@@ -18,7 +18,7 @@
             out.println("欢迎"+ a.getNickname() +"登录");
         }
     %>
-
-    <a href="/">返回主页</a>
+    <br>
+    <a href="/main">进入论坛</a>
 </body>
 </html>
