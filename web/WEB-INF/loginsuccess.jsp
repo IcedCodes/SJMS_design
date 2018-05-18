@@ -11,14 +11,50 @@
 <body>
     <%
         User a = (User)session.getAttribute("theuser");
-        if(a == null){
-            out.println("用户名或密码错误");
-        }
-        else {
-            out.println("欢迎"+ a.getNickname() +"登录");
-        }
     %>
+    <div id="info">
+    <div class="nickname">
+        <h1>欢迎您<% out.println(a.getNickname());;%></h1>
+    </div>
     <br>
-    <a href="/main">进入论坛</a>
+    <button class="button" onclick="javascript:location.href='/main'">进入论坛</button>
+    </div>
 </body>
 </html>
+
+<style>
+    body{
+        font-family: 微软雅黑;
+        margin: 0;
+        background: #4A374A;
+    }
+    #info{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        margin: -150px 0 0 -150px;
+        width: 300px;
+        height: 300px;
+    }
+    .nickname h1{
+        color: #ffffff;
+        text-shadow: 0 0 10px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    button{
+        width: 300px;
+        min-height: 20px;
+        display: block;
+        background-color: #4a77d4;
+        border: 1px solid #3762bc;
+        color: #fff;
+        padding: 9px 14px;
+        font-size: 15px;
+        line-height: normal;
+        border-radius: 5px;
+        margin: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+</style>

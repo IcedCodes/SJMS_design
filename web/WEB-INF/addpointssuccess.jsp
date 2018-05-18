@@ -5,40 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>注销</title>
+    <title>发放积分福利成功</title>
 </head>
 <body>
-<div id="logout">
-    <h1>注销成功</h1><br>
-    <%session.invalidate();%>
-    <button class="button" onclick="javasrcipt:location.href = '/'">返回</button>
-</div>
+    <h1>成功发放${points}积分福利</h1><br>
+    <center><button class="button" onclick="javascript:location.href='/main'" >返回</button></center>
 </body>
 </html>
 
 <style>
     body{
-        background: #4A374A;
+        background: #380c32;
     }
-    #logout{
-        position: absolute;
-        top: 50%;
-        left:50%;
-        margin: -150px 0 0 -150px;
-        width: 300px;
-        height: 300px;
-    }
-    #logout h1{
-        color: #eb9286;
+    h1{
+        text-align: center;
+        color: #ffffff;
         text-shadow: 0 0 10px;
         letter-spacing: 1px;
         text-align: center;
     }
-    h1{
-        font-size: 2em;
-        margin: 0.67em 0;
-    }
-
     button{
         width: 300px;
         min-height: 20px;
@@ -51,5 +36,7 @@
         line-height: normal;
         border-radius: 5px;
         margin: 0;
+        text-align: center;
+        cursor: pointer;
     }
 </style>

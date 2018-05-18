@@ -1,4 +1,5 @@
-<%@ page import="com.NUAALH.User" %><%--
+<%@ page import="com.NUAALH.User" %>
+<%@ page import="org.springframework.ui.ModelMap" %><%--
   Created by IntelliJ IDEA.
   User: LENOVO
   Date: 2018/5/3
@@ -13,18 +14,25 @@
   <body>
   <%
       User a = (User)session.getAttribute("theuser");
-      String nickname = "未登录";
-      boolean login = false;
+      String nickname = "游客";
       if(a != null){
           nickname = a.getNickname();
-          login = true;
       }
   %>
   <div id="header">
       <div id="logo">南航愉♂悦PA交流论坛</div>
   </div>
+  <div id="nickname">
+      <br><br><br>
+      <h1>欢迎您:  <%out.println(nickname);%></h1>
+  </div>
   <div id="ALL">
-  <button class="button" onclick="javascript:location.href = '/login' ">登录</button><br>
+  <%if(a == null){%>
+      <button class="button" onclick="javascript:location.href = '/login' ">登录</button><br>
+      <%}%>
+  <%if (a != null){%>
+      <button class="button" onclick="javascript:location.href = '/logout' ">注销</button><br>
+  <%}%>
   <button class="button" onclick="javascript:location.href = '/reg' ">注册</button><br>
   <button class="button" onclick="javascript:location.href = '/createnotice' ">添加公告</button><br>
   <button class="button" onclick="javascript:location.href = '/noticelist' ">查看公告</button><br>
@@ -61,6 +69,12 @@
       font-weight: 500;
       text-shadow: azure;
   }
+  #nickname h1{
+      font-size: 20px;
+      font-family: 微软雅黑;
+      text-align: center;
+      height: 100px;
+  }
     #ALL{
         position: absolute;
         top: 50%;
@@ -69,16 +83,6 @@
         width: 300px;
         height: 300px;
     }
-  .header li{
-        float: left;
-        color: #ffffffff;
-        display: inline-block ;
-        width: 112px ;
-        height: 72px ;
-        text-align: center ;
-        line-height:72px ;
-        cursor: pointer ;
-  }
     button{
         width: 300px;
         min-height: 20px;
@@ -91,5 +95,6 @@
         line-height: normal;
         border-radius: 5px;
         margin: 0;
+        cursor: pointer;
     }
 </style>

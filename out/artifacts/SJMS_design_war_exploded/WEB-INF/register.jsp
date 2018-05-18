@@ -97,5 +97,6 @@
         border-radius: 5px;
         margin: 0;
         text-align: center;
+        cursor: pointer;
     }
 </style>

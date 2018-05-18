@@ -1,6 +1,7 @@
 package com.NUAALH.handlers;
 
 import com.NUAALH.EncodingFilter;
+import com.NUAALH.Observer;
 import com.NUAALH.User;
 import com.NUAALH.UserLoginChecker;
 import com.NUAALH.database.DbConnection;
@@ -8,7 +9,6 @@ import com.NUAALH.database.entities.HappypaersEntity;
 import com.NUAALH.database.entities.NoticeEntity;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Order;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +21,33 @@ import java.util.List;
 
 @Controller
 @SessionAttributes("theuser")
-public class UserController {
+public class UserController implements EncodingFilter,Observer {
+    @Override
+    public String to_UTF8(String a) throws UnsupportedEncodingException {
+        String aim = new String(a.getBytes("ISO-8859-1"),"UTF-8");
+        return aim;
+    }
+
+    @Override
+    public void AddpointsEvent(int points) {
+        Session session = DbConnection.getSession();
+        Transaction ts = session.beginTransaction();
+        List<HappypaersEntity> list = session.createCriteria(HappypaersEntity.class).list();
+        for (int i = 0; i < list.size(); i++) {
+            list.get(i).addpoints(points);
+            session.update(list.get(i));
+        }
+        NoticeEntity a = new NoticeEntity();
+        Date d = new Date();
+        a.setNickname("system");
+        a.setTitle("全体注册用户发放积分福利");
+        a.setMessage("全体发放"+points+"积分福利");
+        a.setTime(d);
+        session.save(a);
+        ts.commit();
+        session.close();
+    }
+
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public String ListUsers(ModelMap map){
         Session session = DbConnection.getSession();
@@ -41,9 +67,8 @@ public class UserController {
         for(int i = 0; i < list.size(); i++) {
             if(name == list.get(i).getUsername()) return "registererror";
         }
-        EncodingFilter ef = new EncodingFilter();
-        name = ef.to_UTF8(name);
-        nickname = ef.to_UTF8(nickname);
+        name = to_UTF8(name);
+        nickname = to_UTF8(nickname);
         Transaction transaction = session.beginTransaction();
 //        System.out.println("注册");
 //        System.out.println("用户名:"+name);
@@ -80,49 +105,6 @@ public class UserController {
         return "regsuccess";
     }
 
-
-    @RequestMapping(value = "/createnotice", method = RequestMethod.GET)
-    public String createnotice(){
-        return "createnotice";
-    }
-
-
-    @RequestMapping(value = "/makenotice", method = RequestMethod.POST)
-    public String makenotice(ModelMap map,@RequestParam String title,@RequestParam String message) throws UnsupportedEncodingException {
-        map.addAttribute("title", title);
-        map.addAttribute("message", message);
-        Session session = DbConnection.getSession();
-//        List <NoticeEntity>list = session.createCriteria(NoticeEntity.class).list();
-        Transaction transaction = session.beginTransaction();
-        System.out.println("写公告");
-
-        //保存
-        EncodingFilter ef = new EncodingFilter();
-        NoticeEntity notice = new NoticeEntity();
-        title = ef.to_UTF8(title);
-        message = ef.to_UTF8(message);
-        notice.setMessage(message);
-        notice.setTitle(title);
-        System.out.println("title:" + title);
-        System.out.println("message:" + message);
-        Date now = new Date();
-        notice.setTime(now);
-        session.save(notice);
-        //提交
-        transaction.commit();
-        session.close();
-
-        return "successaddnotice";
-    }
-
-    @RequestMapping(value = "/noticelist", method = RequestMethod.GET)
-    public String noticelist(ModelMap map){
-        System.out.print("查看公告\n");
-        Session session = DbConnection.getSession();
-        List <NoticeEntity>list = session.createCriteria(NoticeEntity.class).addOrder(Order.desc("time")).list();
-        map.addAttribute("notices",list);
-        return "noticelist";
-    }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(){
@@ -161,8 +143,14 @@ public class UserController {
     }
 
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
-    public String logout(HttpSession session){
-        session.removeAttribute("theuser");
+    public String logout(){
         return "logout";
+    }
+
+    @RequestMapping(value = "/addpoints", method = RequestMethod.POST)
+    public String addpoints(ModelMap map,@RequestParam int points){
+        AddpointsEvent(points);
+        map.addAttribute("points", points);
+        return "addpointssuccess";
     }
 }

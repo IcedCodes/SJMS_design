@@ -6,24 +6,50 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e874e72-e5d0-4c2f-8bd9-28ea62c69818" name="Default" comment="">
+    <list default="true" id="0e874e72-e5d0-4c2f-8bd9-28ea62c69818" name="Default" comment="样式添加，公告翻页查看">
+      <change afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/addpointssuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/.idea/dictionaries/LENOVO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/.idea/dictionaries/LENOVO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/SJMS_design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/SJMS_design.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/Login/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/EncodingFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/Notice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/database/entities/HappypaersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/database/entities/HappypaersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/database/entities/NoticeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/database/entities/NoticeEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/handlers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/classes/com/NUAALH/handlers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/createnotice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/createnotice.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/noticelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/noticelist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/WEB-INF/users.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/EncodingFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/Notice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/database/entities/HappypaersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/database/entities/HappypaersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/database/entities/NoticeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/database/entities/NoticeEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/handlers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/out/production/SJMS_design/com/NUAALH/handlers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/Login/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/logout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/logout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SJMS_design/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SJMS_design/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +108,28 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3478#3479#0" expanded="true" />
+                <element signature="e#3581#3582#0" expanded="true" />
+                <element signature="e#3616#3617#0" expanded="true" />
+                <element signature="e#3711#3712#0" expanded="true" />
+                <element signature="e#3741#3742#0" expanded="true" />
+                <element signature="e#5018#5019#0" expanded="true" />
+                <element signature="e#5049#5050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoticeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/NoticeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,51 +137,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="3255" column="4" selection-start-line="3255" selection-start-column="4" selection-end-line="3255" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HappypaersEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java">
+      <file leaf-file-name="noticelist.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoticeEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/NoticeEntity.java">
+      <file leaf-file-name="registererror.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="89" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regsuccess.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-              </folding>
+              <caret line="13" column="89" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="successaddnotice.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -143,17 +176,35 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SJMS_design/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="216">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserLoginChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/UserLoginChecker.java">
+      <file leaf-file-name="createnotice.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginsuccess.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -167,10 +218,11 @@
         <option value="spring-beans.schema" />
         <option value="CSS File" />
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -191,30 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/regsuccess.jsp" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/handlers/UserController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/registererror.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/database/entities/test.java" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/database/entities/HappypaersEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/Notice.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/database/entities/NoticeEntity.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/noticelist.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/successaddnotice.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/register.jsp" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/handlers/UserController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/createnotice.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/createnotice.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/EncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/User.java" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/UserLogin.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/users.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/logincheck.jsp" />
-        <option value="$PROJECT_DIR$/src/com/NUAALH/UserLoginChecker.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/noticelist.jsp" />
         <option value="$PROJECT_DIR$/src/com/NUAALH/handlers/UserController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
@@ -234,14 +262,38 @@
         <option value="$PROJECT_DIR$/src/com/NUAALH/handlers/UserController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/register.jsp" />
-        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Notice.java" />
-        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java" />
-        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/NoticeEntity.java" />
-        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java" />
-        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java" />
-        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp" />
-        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp" />
+        <option value="$PROJECT_DIR$/src/com/NUAALH/Notice.java" />
+        <option value="$PROJECT_DIR$/src/com/NUAALH/User.java" />
+        <option value="$PROJECT_DIR$/src/com/NUAALH/database/entities/NoticeEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/NUAALH/database/entities/HappypaersEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/NUAALH/handlers/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/loginfali.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/register.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/login.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/change.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/AddPointsHandler.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/PointsManager.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Notice.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Observer.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/addpointssuccess.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/logout.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/web/index.jsp" />
+        <option value="$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/NoticeController.java" />
       </list>
     </option>
   </component>
@@ -272,10 +324,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-59" />
-    <option name="y" value="33" />
+    <option name="x" value="637" />
+    <option name="y" value="64" />
     <option name="width" value="1277" />
-    <option name="height" value="975" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,17 +337,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SJMS_design" type="b2602c69:ProjectViewProjectNode" />
               <item name="SJMS_design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SJMS_design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SJMS_design" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SJMS_design" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +410,6 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +433,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SJMS_design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -396,8 +443,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.NUAALH.handlers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SJMS_design\web\WEB-INF\calsses" />
+      <recent name="E:\SJMS_design\web" />
+      <recent name="E:\SJMS_design\web\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SJMS_design\lib" />
@@ -406,10 +455,8 @@
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.NUAALH.entities" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\SJMS_design\web\WEB-INF\calsses" />
-      <recent name="E:\SJMS_design\web" />
-      <recent name="E:\SJMS_design\web\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.NUAALH.handlers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -582,7 +629,8 @@
       <workItem from="1526222876400" duration="498000" />
       <workItem from="1526300961198" duration="1362000" />
       <workItem from="1526305899339" duration="6352000" />
-      <workItem from="1526378136279" duration="6226000" />
+      <workItem from="1526378136279" duration="6572000" />
+      <workItem from="1526472778264" duration="31140000" />
     </task>
     <task id="LOCAL-00001" summary="实现登录界面跳转">
       <created>1525436961633</created>
@@ -612,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526383747633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="登录注册空表单无法提交">
+      <created>1526395611910</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526395611910</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107053000" />
+    <option name="totallyTimeSpent" value="138539000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -632,7 +687,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5042644" side_tool="true" weight="0.21919303" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5061627" side_tool="true" weight="0.23843417" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.3293348" />
@@ -644,24 +699,24 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39952153" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4978678" weight="0.3217012" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4968017" weight="0.32061067" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3293348" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49840087" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49573562" visible="true" weight="0.21919303" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4938373" visible="true" weight="0.23882225" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293348" />
       <window_info id="Persistence" order="0" sideWeight="0.50406504" side_tool="true" weight="0.19616205" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.15511727" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.15671642" />
       <window_info id="Web" order="7" sideWeight="0.50406504" side_tool="true" weight="0.19616205" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32858837" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49963793" weight="0.32715377" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -674,14 +729,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="实现登录界面跳转" />
     <MESSAGE value="首页加背景" />
     <MESSAGE value="登录注册" />
     <MESSAGE value="加网页样式，禁止注册与登录的空表单提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="加网页样式，禁止注册与登录的空表单提交" />
+    <MESSAGE value="登录注册空表单无法提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录注册空表单无法提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,32 +746,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/hello.css" />
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/index.css" />
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/out/artifacts/SJMS_design_war_exploded/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/Login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.xhtml" />
-    <entry file="das://01f0762e-a1dc-4393-98c1-280c6bfe47c6/schema/springuser/table/users.sql" />
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/adduser.jsp" />
-    <entry file="jar://$PROJECT_DIR$/../JDK8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27351">
-          <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/DbConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -780,21 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/hello.jsp" />
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/classes/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -802,68 +815,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/login.java" />
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/hello.java" />
     <entry file="file://$PROJECT_DIR$/../SJMS_design/web/js/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="3" column="636" selection-start-line="3" selection-start-column="636" selection-end-line="3" selection-end-column="636" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/logout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -874,18 +831,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp">
+    <entry file="das://55ff5d45-3618-4135-8cb1-c8a675b09cd3/schema/happypa_bbs/table/notice">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="87885">
+          <caret line="3255" column="4" selection-start-line="3255" selection-start-column="4" selection-end-line="3255" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/AddPointsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/PointsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Notice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="624">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
@@ -894,102 +922,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java">
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/UserLoginChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/HappypaersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/UserLoginChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://55ff5d45-3618-4135-8cb1-c8a675b09cd3/schema/happypa_bbs/table/notice">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/NoticeEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
           <folding>
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2421#2422#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp">
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/logout.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginfali.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="3255" column="4" selection-start-line="3255" selection-start-column="4" selection-end-line="3255" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="351">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/Login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/database/entities/NoticeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/addpointssuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/createnotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/loginsuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/regsuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="89" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="508" column="61" selection-start-line="508" selection-start-column="61" selection-end-line="508" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/successaddnotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/registererror.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="89" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/web/WEB-INF/noticelist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3445#3446#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
+            <element signature="e#3616#3617#0" expanded="true" />
+            <element signature="e#3711#3712#0" expanded="true" />
+            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="e#5018#5019#0" expanded="true" />
+            <element signature="e#5049#5050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SJMS_design/src/com/NUAALH/handlers/NoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

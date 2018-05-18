@@ -16,6 +16,9 @@
 </html>
 
 <style>
+    body{
+        background: #0c51ff;
+    }
     #fail{
         position: absolute;
         top: 50%;

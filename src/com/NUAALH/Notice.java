@@ -1,5 +1,10 @@
 package com.NUAALH;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.service.ServiceRegistry;
 import java.util.Date;
 
 public class Notice {
@@ -39,4 +44,8 @@ public class Notice {
         return title;
     }
     public Notice(){};
+
+    public void addNotice(int points){
+
+    }
 }

@@ -1,6 +1,9 @@
 package com.NUAALH;
 
+import com.NUAALH.database.DbConnection;
 import com.NUAALH.database.entities.HappypaersEntity;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 public class User {
     private int id;
@@ -70,6 +73,7 @@ public class User {
         setPassword(happypaer.getPassword());
         setNickname(happypaer.getNickname());
         setName(happypaer.getUsername());
+        setPoints(happypaer.getPoints());
     }
     public User(){}
 }

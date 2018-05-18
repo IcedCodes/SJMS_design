@@ -1,5 +1,7 @@
 package com.NUAALH.database.entities;
 
+import com.NUAALH.User;
+
 import javax.persistence.*;
 import java.util.Objects;
 
@@ -84,5 +86,19 @@ public class HappypaersEntity {
     public int hashCode() {
 
         return Objects.hash(id, username, nickname, usertpye, password);
+    }
+
+    public User to_User(){
+        User a = new User();
+        a.setName(this.getUsername());
+        a.setNickname(this.getNickname());
+        a.setPassword(this.getPassword());
+        a.setUsertype(this.getUsertpye());
+        a.setId(this.getId());
+        a.setPoints(this.getPoints());
+        return a;
+    }
+    public void addpoints(int points){
+        this.points += points;
     }
 }
