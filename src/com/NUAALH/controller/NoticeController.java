@@ -1,19 +1,13 @@
-package com.NUAALH.handlers;
+package com.NUAALH.controller;
 
 
 import com.NUAALH.EncodingFilter;
-import com.NUAALH.Notice;
-import com.NUAALH.Observer;
 import com.NUAALH.User;
 import com.NUAALH.database.DbConnection;
 import com.NUAALH.database.entities.NoticeEntity;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.boot.MetadataSources;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.criterion.Order;
-import org.hibernate.service.ServiceRegistry;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,7 +31,8 @@ public class NoticeController implements EncodingFilter {
     @RequestMapping(value = "/createnotice", method = RequestMethod.GET)
     public String createnotice(HttpSession session){
         User a = (User) session.getAttribute("theuser");
-        if (a == null)return "login";
+        if (a == null)return "loginplease";
+        if (a.getUsertype() != 99)return "notadmin";
         return "createnotice";
     }
 
@@ -76,7 +71,7 @@ public class NoticeController implements EncodingFilter {
         User a = (User) session.getAttribute("theuser");
         if (a == null)
         {
-            return "login";
+            return "loginplease";
         }
         System.out.print("查看公告\n");
         Session sess = DbConnection.getSession();

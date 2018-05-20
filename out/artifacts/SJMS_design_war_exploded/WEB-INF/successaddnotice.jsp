@@ -1,4 +1,5 @@
 <%@page pageEncoding="UTF-8" %>
+<link rel = "stylesheet" href="css/button.css">
 <html>
 <head>
     <meta charset="UTF-8">
@@ -8,9 +9,20 @@
     <title>添加公告成功</title>
 </head>
 <body>
-<div>
-    添加成功
-</div>
-<a href="/">返回主页</a>
+<center>
+    <h4>添加公告成功</h4>
+    <button class="button" onclick="javascript:location.href = '/makenotice'">继续发布</button><br><br>
+    <button class="button" onclick="javascript:location.href = '/'">返回主页</button><br><br>
+</center>
 </body>
 </html>
+<style>
+    body{
+        font-family: 微软雅黑;
+        margin: 0;
+        background: #4A374A;
+    }
+    h4{
+        font-family: 微软雅黑;
+    }
+</style>

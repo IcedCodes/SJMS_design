@@ -7,7 +7,7 @@
 
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
     <mvc:annotation-driven></mvc:annotation-driven>
-    <context:component-scan base-package="com.NUAALH.handlers"></context:component-scan>
+    <context:component-scan base-package="com.NUAALH.controller"></context:component-scan>
     <bean id = "jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/"></property>
         <property name="suffix" value=".jsp"></property>

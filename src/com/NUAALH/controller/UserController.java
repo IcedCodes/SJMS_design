@@ -1,11 +1,11 @@
-package com.NUAALH.handlers;
+package com.NUAALH.controller;
 
 import com.NUAALH.EncodingFilter;
 import com.NUAALH.Observer;
 import com.NUAALH.User;
 import com.NUAALH.UserLoginChecker;
 import com.NUAALH.database.DbConnection;
-import com.NUAALH.database.entities.HappypaersEntity;
+import com.NUAALH.database.entities.UserEntity;
 import com.NUAALH.database.entities.NoticeEntity;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -32,9 +32,9 @@ public class UserController implements EncodingFilter,Observer {
     public void AddpointsEvent(int points) {
         Session session = DbConnection.getSession();
         Transaction ts = session.beginTransaction();
-        List<HappypaersEntity> list = session.createCriteria(HappypaersEntity.class).list();
+        List<UserEntity> list = session.createCriteria(UserEntity.class).list();
         for (int i = 0; i < list.size(); i++) {
-            list.get(i).addpoints(points);
+            list.get(i).AddpointsEvent(points);
             session.update(list.get(i));
         }
         NoticeEntity a = new NoticeEntity();
@@ -51,7 +51,7 @@ public class UserController implements EncodingFilter,Observer {
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public String ListUsers(ModelMap map){
         Session session = DbConnection.getSession();
-        List <HappypaersEntity>list = session.createCriteria(HappypaersEntity.class).list();
+        List <UserEntity>list = session.createCriteria(UserEntity.class).list();
         map.addAttribute("users",list);
         session.close();
         return "users";
@@ -63,7 +63,7 @@ public class UserController implements EncodingFilter,Observer {
         map.addAttribute("password",password);
         map.addAttribute("nickname",nickname);
         Session session = DbConnection.getSession();
-        List <HappypaersEntity>list = session.createCriteria(HappypaersEntity.class).list();
+        List <UserEntity>list = session.createCriteria(UserEntity.class).list();
         for(int i = 0; i < list.size(); i++) {
             if(name == list.get(i).getUsername()) return "registererror";
         }
@@ -74,7 +74,7 @@ public class UserController implements EncodingFilter,Observer {
 //        System.out.println("用户名:"+name);
 //        System.out.println("昵称:"+nickname);
         //保存
-        HappypaersEntity ue = new HappypaersEntity();
+        UserEntity ue = new UserEntity();
         ue.setUsername(name);
         ue.setPassword(password);
         ue.setNickname(nickname);
@@ -132,7 +132,7 @@ public class UserController implements EncodingFilter,Observer {
         String nickname;
         int points;
         User a = (User)session.getAttribute("theuser");
-        if(a == null)return "login";
+        if(a == null)return "loginplease";
         username = a.getName();
         nickname = a.getNickname();
         points = a.getPoints();

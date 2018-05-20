@@ -1,5 +1,6 @@
 package com.NUAALH.database.entities;
 
+import com.NUAALH.Observer;
 import com.NUAALH.User;
 
 import javax.persistence.*;
@@ -7,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "happypaers", schema = "happypa_bbs")
-public class HappypaersEntity {
+public class UserEntity implements Observer {
     private int id;
     private String username;
     private String nickname;
@@ -74,7 +75,7 @@ public class HappypaersEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        HappypaersEntity that = (HappypaersEntity) o;
+        UserEntity that = (UserEntity) o;
         return id == that.id &&
                 usertpye == that.usertpye &&
                 Objects.equals(username, that.username) &&
@@ -98,7 +99,9 @@ public class HappypaersEntity {
         a.setPoints(this.getPoints());
         return a;
     }
-    public void addpoints(int points){
+
+    @Override
+    public void AddpointsEvent(int points) {
         this.points += points;
     }
 }

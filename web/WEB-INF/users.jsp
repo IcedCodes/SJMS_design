@@ -1,4 +1,4 @@
-<%@ page import="com.NUAALH.database.entities.HappypaersEntity" %>
+<%@ page import="com.NUAALH.database.entities.UserEntity" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: LENOVO
@@ -6,6 +6,7 @@
   Time: 11:05
   To change this template use File | Settings | File Templates.
 --%>
+<link rel = "stylesheet" href="css/button.css">
 <%@page pageEncoding="UTF-8" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -14,7 +15,7 @@
 </head>
 <body>
     <ol>
-        <%for (HappypaersEntity e:(List<HappypaersEntity>)request.getAttribute("users")){%>
+        <%for (UserEntity e:(List<UserEntity>)request.getAttribute("users")){%>
         <li>ID:<%out.print(e.getId());%></li>
         <li>姓名:<%out.print(e.getUsername());%></li>
         <%}%>

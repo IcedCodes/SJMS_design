@@ -1,8 +1,7 @@
 package com.NUAALH;
 
-import com.NUAALH.User;
 import com.NUAALH.database.DbConnection;
-import com.NUAALH.database.entities.HappypaersEntity;
+import com.NUAALH.database.entities.UserEntity;
 import org.hibernate.Session;
 
 import java.util.List;
@@ -14,7 +13,7 @@ public class UserLoginChecker {
         System.out.println("用户名"+name);
         System.out.println("密码" + password);*/
         Session session = DbConnection.getSession();
-        List<HappypaersEntity> list = session.createCriteria(HappypaersEntity.class).list();
+        List<UserEntity> list = session.createCriteria(UserEntity.class).list();
         for(int i = 0; i < list.size(); i++) {
 //            System.out.println(list.get(i).getUsername());
 //            System.out.println(list.get(i).getPassword());

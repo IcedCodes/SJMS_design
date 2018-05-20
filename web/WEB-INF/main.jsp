@@ -1,5 +1,6 @@
 <%@ page import="com.NUAALH.User" %>
 <%@page pageEncoding="UTF-8" %>
+<link rel = "stylesheet" href="css/button.css">
 <html>
 <head>
     <meta charset="UTF-8">
@@ -44,21 +45,6 @@
     }
     body{
         background: #4A374A;
-    }
-    button{
-        width: 300px;
-        min-height: 20px;
-        display: block;
-        background-color: #4a77d4;
-        border: 1px solid #3762bc;
-        color: #fff;
-        padding: 9px 14px;
-        font-size: 15px;
-        line-height: normal;
-        border-radius: 5px;
-        margin: 0;
-        text-align: center;
-        cursor: pointer;
     }
     input{
         width: 300px;

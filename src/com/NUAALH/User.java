@@ -1,11 +1,8 @@
 package com.NUAALH;
 
-import com.NUAALH.database.DbConnection;
-import com.NUAALH.database.entities.HappypaersEntity;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import com.NUAALH.database.entities.UserEntity;
 
-public class User {
+public class User{
     private int id;
     private String name;
     private String password;
@@ -67,7 +64,7 @@ public class User {
         setUsertype(usertype);
     }
 
-    public User(HappypaersEntity happypaer){
+    public User(UserEntity happypaer){
         setId(happypaer.getId());
         setUsertype(happypaer.getUsertpye());
         setPassword(happypaer.getPassword());

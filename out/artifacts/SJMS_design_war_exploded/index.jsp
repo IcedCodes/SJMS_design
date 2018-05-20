@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link rel = "stylesheet" href="css/button.css">
 <html>
   <head>
     <title>欢迎界面</title>
@@ -82,19 +83,5 @@
         margin: -150px 0 0 -150px;
         width: 300px;
         height: 300px;
-    }
-    button{
-        width: 300px;
-        min-height: 20px;
-        display: block;
-        background-color: #4a77d4;
-        border: 1px solid #3762bc;
-        color: #fff;
-        padding: 9px 14px;
-        font-size: 15px;
-        line-height: normal;
-        border-radius: 5px;
-        margin: 0;
-        cursor: pointer;
     }
 </style>
